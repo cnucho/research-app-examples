@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "version": "policy-analysis-student-v1",
+  "input_release": "policy-benchmark-v1",
+  "synthetic": true,
+  "no_real_records": true,
+  "license": "CC-BY-4.0",
+  "policy_questions": 6,
+  "input_packages": 12,
+  "data_csv_files": 38,
+  "data_sav_files": 38,
+  "archive_files": 179,
+  "curator_material_included": false,
+  "archive": {
+    "filename": "policy-analysis-student-v1.zip",
+    "bytes": 988312,
+    "sha256": "7062e8b65881db0734f00bdedfb1a451d4be2dc5ada7c06c31c3cb1a99185eb3",
+    "layout": "README_KO.md, PRACTICE_PROBLEMS_KO.md, student-package.json, user/"
+  },
+  "download": {
+    "label": "가상데이터 받기",
+    "provider": "Dropbox",
+    "status": "awaiting_public_link",
+    "url": null
+  },
+  "documentation": {
+    "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+    "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md"
+  },
+  "rebuild": {
+    "script": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/package_student.py",
+    "input": "Exact user/ directory from policy-benchmark-v1"
+  },
+  "verification_scope": "All 176 input file bytes match their released manifest; 38 CSV and 38 SAV match descriptors. This is packaging verification, not current ChatGPT host acceptance or causal validity."
+}

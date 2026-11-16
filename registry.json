@@ -124,6 +124,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c01_heat_shelters/v01/datapackage.json"
       }
     },
     {
@@ -210,6 +217,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c01_heat_shelters/v02/datapackage.json"
       }
     },
     {
@@ -288,6 +302,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c02_youth_transport/v01/datapackage.json"
       }
     },
     {
@@ -366,6 +387,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c02_youth_transport/v02/datapackage.json"
       }
     },
     {
@@ -451,6 +479,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c03_training/v01/datapackage.json"
       }
     },
     {
@@ -536,6 +571,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c03_training/v02/datapackage.json"
       }
     },
     {
@@ -628,6 +670,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c04_home_insulation/v01/datapackage.json"
       }
     },
     {
@@ -720,6 +769,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c04_home_insulation/v02/datapackage.json"
       }
     },
     {
@@ -812,6 +868,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c05_digital_service/v01/datapackage.json"
       }
     },
     {
@@ -904,6 +967,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c05_digital_service/v02/datapackage.json"
       }
     },
     {
@@ -989,6 +1059,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c06_heat_safety/v01/datapackage.json"
       }
     },
     {
@@ -1074,6 +1151,13 @@
       "integrity": {
         "canonical_csv_hashes": "resources[].hash",
         "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "student_materials": {
+        "version": "policy-analysis-student-v1",
+        "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
+        "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
+        "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+        "archive_member": "user/c06_heat_safety/v02/datapackage.json"
       }
     }
   ]
