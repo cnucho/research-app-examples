@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "repository": "cnucho/mcp-special-analysis-tools",
+  "upstream_commit": "5db498e3195ecc214b1b7d3c890212f074901514",
+  "upstream_tree": "72df310ab55f6337cc65992df123feedf6d2436e",
+  "scope": "All policy_analysis modules, policy_server.py, R source/runtime specifications, and pinned policy Python dependencies. Git history, media and executable mode are not source-content identity.",
+  "files": [
+    {
+      "path": "policy_analysis/__init__.py",
+      "git_blob_sha1": "b3afa76e371f4847b0c8fae8d41d0c5d1723a9b1"
+    },
+    {
+      "path": "policy_analysis/data.py",
+      "git_blob_sha1": "f2c0b87097338bcebdb81d24bd403aa4f900a8df"
+    },
+    {
+      "path": "policy_analysis/output_contracts.py",
+      "git_blob_sha1": "1ab83991150caac17d9f70a483f236fb4b880e43"
+    },
+    {
+      "path": "policy_analysis/protocol.py",
+      "git_blob_sha1": "5b21a1b53bcedfcfe60cb9635ef24c1a4d48456d"
+    },
+    {
+      "path": "policy_analysis/rbridge.py",
+      "git_blob_sha1": "14e42eb1996d16f1892d2ecc2f91e1d15add7fd9"
+    },
+    {
+      "path": "policy_analysis/render.py",
+      "git_blob_sha1": "31af51f12ef4150f7d346b1203c553352c131244"
+    },
+    {
+      "path": "policy_analysis/service.py",
+      "git_blob_sha1": "685700182680db11e37cb96d31ffede3982f0617"
+    },
+    {
+      "path": "policy_analysis/storage.py",
+      "git_blob_sha1": "9b8cd1e6cc2759edb796bdae247852681d854f5d"
+    },
+    {
+      "path": "policy_analysis/verify.py",
+      "git_blob_sha1": "96bccf0cccfd36a88b09e8c0793291dd0c720af7"
+    },
+    {
+      "path": "policy_server.py",
+      "git_blob_sha1": "5dcb013a9cf1aa70be4b5454fd55eafc54ba77e3"
+    },
+    {
+      "path": "r/README.md",
+      "git_blob_sha1": "14c952cc627fd6da99729da0fe3eb6222141ce72"
+    },
+    {
+      "path": "r/engine.R",
+      "git_blob_sha1": "52e91fb0519497b24f08197fc808b39d5b1187c1"
+    },
+    {
+      "path": "r/environment-linux-64.lock",
+      "git_blob_sha1": "c5ad9af92813140c38b9ed0147993f5da3255cef"
+    },
+    {
+      "path": "r/install-runtime.sh",
+      "git_blob_sha1": "27107c19ffb928d9fb3aa68c5b3d419764dc865c"
+    },
+    {
+      "path": "r/install_rdrobust.py",
+      "git_blob_sha1": "cb6a82b8bedee01f1d5b53665f1e5d4284f7323e"
+    },
+    {
+      "path": "r/package-versions.json",
+      "git_blob_sha1": "9b4f39ccbe4d45353c6d5c562f5f081019e557cc"
+    },
+    {
+      "path": "r/verify_runtime.R",
+      "git_blob_sha1": "dab7063b203673818f2de3280cc48ea760f96650"
+    },
+    {
+      "path": "requirements.policy.in",
+      "git_blob_sha1": "d9d04e9b3e99fbfbe13bb5f78387bb7b17612c37"
+    },
+    {
+      "path": "requirements.policy.lock.txt",
+      "git_blob_sha1": "a007c748b4b0407fe765813fb278e640af15537a"
+    }
+  ]
+}

@@ -1,0 +1,1080 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "research-app-examples",
+  "synthetic": true,
+  "description": "Reusable entirely synthetic research inputs. No method recommendation or precomputed answer.",
+  "repository": "https://github.com/cnucho/research-app-examples",
+  "packages": [
+    {
+      "id": "lca-mca.mobility.tutorial-v1",
+      "version": "1.0.0",
+      "title": "LCA–MCA synthetic mobility survey",
+      "synthetic": true,
+      "purpose": [
+        "teaching",
+        "application_development",
+        "integration_testing"
+      ],
+      "source_path": "lca-mca-platform/tutorial-v1",
+      "formats": [
+        "csv",
+        "sav",
+        "json"
+      ],
+      "entrypoint": "https://github.com/cnucho/research-app-examples/releases/download/lca-mca-tutorial-v1/manifest.json",
+      "entrypoint_format": "legacy_manifest",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/lca-mca-tutorial-v1",
+      "resources": [
+        {
+          "name": "mobility_survey",
+          "rows": 1800,
+          "columns": 21,
+          "url": "https://github.com/cnucho/research-app-examples/releases/download/lca-mca-tutorial-v1/mobility_survey.csv"
+        }
+      ],
+      "generation": {
+        "seed": 20261115,
+        "version": "tutorial-v1",
+        "real_records_used": false
+      },
+      "generator": "lca-mca-platform/tutorial-v1/generate.py",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "policy.c01_heat_shelters.v01",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "무더위쉼터 야간·휴일 운영지원과 온열질환 신고",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "무더위쉼터의 야간·휴일 개방을 지원한 지역에서 온열질환 감시체계 신고 부담이 얼마나 달라졌으며, 도입 후 시간이 지나며 양상이 달라졌는가?",
+      "observation_unit": "주 결과 자료는 지역×연도; 시설대장은 시설; 정책 이력은 지역",
+      "population": "가상 48개 지역의 주민과 해당 지역에서 발생한 여름철 표본감시 신고",
+      "time_structure": "2017–2024년 8개 연도, 동일한 48개 지역 추적. 일부 지역은 2020·2021·2022년에 도입, 일부는 관측기간 내 미도입.",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20261217,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "heat-shelters",
+        "kdca-heat"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c01_heat_shelters/v01/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c01_heat_shelters/v01/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c01_heat_shelters/v01/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "annual_outcomes",
+          "path": "data/annual_outcomes.csv",
+          "rows": 384,
+          "columns": 7,
+          "hash": "sha256:bbc42d392d0804c75b18064153600f0c7f72bb2173291e3b72fa6bf12eb8444c"
+        },
+        {
+          "name": "policy_schedule",
+          "path": "data/policy_schedule.csv",
+          "rows": 48,
+          "columns": 4,
+          "hash": "sha256:4cbb405f8970ceaa9ffe027b312f61ce97de2ab8b4496b6a986a0b4355ac4912"
+        },
+        {
+          "name": "facility_inventory",
+          "path": "data/facility_inventory.csv",
+          "rows": 213,
+          "columns": 5,
+          "hash": "sha256:99f25be2a8d15d11ad312945008634d078e0ee0483292eddde4c2314656c05b9"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c01_heat_shelters.v02",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "무더위쉼터 야간·휴일 운영지원과 온열질환 신고",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "무더위쉼터의 야간·휴일 개방을 지원한 지역에서 온열질환 감시체계 신고 부담이 얼마나 달라졌으며, 도입 후 시간이 지나며 양상이 달라졌는가?",
+      "observation_unit": "주 결과 자료는 지역×연도; 시설대장은 시설; 정책 이력은 지역",
+      "population": "가상 48개 지역의 주민과 해당 지역에서 발생한 여름철 표본감시 신고",
+      "time_structure": "2017–2024년 8개 연도, 동일한 48개 지역 추적. 일부 지역은 2020·2021·2022년에 도입, 일부는 관측기간 내 미도입.",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20261218,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "heat-shelters",
+        "kdca-heat"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c01_heat_shelters/v02/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c01_heat_shelters/v02/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c01_heat_shelters/v02/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "annual_outcomes",
+          "path": "data/annual_outcomes.csv",
+          "rows": 384,
+          "columns": 7,
+          "hash": "sha256:3f1b0bd1b8e2b80ea114d6a9211f99e29393f4a674dc19c4a22099b09fc7f833"
+        },
+        {
+          "name": "policy_schedule",
+          "path": "data/policy_schedule.csv",
+          "rows": 48,
+          "columns": 4,
+          "hash": "sha256:1b919e575f30192bdae125de5f55630b6bc42c210b19e5f5b82cf15244c70fc4"
+        },
+        {
+          "name": "facility_inventory",
+          "path": "data/facility_inventory.csv",
+          "rows": 214,
+          "columns": 5,
+          "hash": "sha256:935d9f32873ce1de9239f6da2abd7c22e4e660566541ee6ce59954a255b3a263"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c02_youth_transport.v01",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "청년 교통·구직지원과 지역 청년의 월 근로소득",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "구직 교통비를 지원한 지역에서 만 19–34세 청년 전체의 월 근로소득이 달라졌는가? 반기마다 조사한 사람이 다른 자료로 어떤 범위의 답을 할 수 있는가?",
+      "observation_unit": "해당 지역·반기에 새로 뽑은 개인; 정책 도입 이력은 지역",
+      "population": "40개 허구 지역의 각 조사시점 만 19–34세 청년",
+      "time_structure": "2021년 상·하반기와 2022년 상·하반기. 매 시점 독립 표본이며 개인 종단 연결이 없다.",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20262317,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "kostat-employment"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c02_youth_transport/v01/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c02_youth_transport/v01/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c02_youth_transport/v01/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "survey_rows",
+          "path": "data/survey_rows.csv",
+          "rows": 3200,
+          "columns": 12,
+          "hash": "sha256:6eaf806c4e37c20394f1ee2d4b86c04d0ca6eba764958fc455d81eb661df86f7"
+        },
+        {
+          "name": "policy_schedule",
+          "path": "data/policy_schedule.csv",
+          "rows": 40,
+          "columns": 5,
+          "hash": "sha256:ba6c677927702435fd62dd3e60b887ab995d17711f1cce3529e664b1970358a0"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c02_youth_transport.v02",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "청년 교통·구직지원과 지역 청년의 월 근로소득",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "구직 교통비를 지원한 지역에서 만 19–34세 청년 전체의 월 근로소득이 달라졌는가? 반기마다 조사한 사람이 다른 자료로 어떤 범위의 답을 할 수 있는가?",
+      "observation_unit": "해당 지역·반기에 새로 뽑은 개인; 정책 도입 이력은 지역",
+      "population": "40개 허구 지역의 각 조사시점 만 19–34세 청년",
+      "time_structure": "2021년 상·하반기와 2022년 상·하반기. 매 시점 독립 표본이며 개인 종단 연결이 없다.",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20262318,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "kostat-employment"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c02_youth_transport/v02/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c02_youth_transport/v02/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c02_youth_transport/v02/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "survey_rows",
+          "path": "data/survey_rows.csv",
+          "rows": 3200,
+          "columns": 12,
+          "hash": "sha256:f4c743b231833a15d44c9714322009f8ab9d0b5dcafd1447d85b948c405f36a8"
+        },
+        {
+          "name": "policy_schedule",
+          "path": "data/policy_schedule.csv",
+          "rows": 40,
+          "columns": 5,
+          "hash": "sha256:a91e39eaf0718e94eacb28bf612f7201a4b0aaea213a8695ec1f81bc432a2d42"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c03_training.v01",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "디지털 재취업교육 참여와 6개월 뒤 월 근로소득",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "기초 특성이 다른 교육 참여자와 비참여자의 6개월 뒤 월 근로소득 차이를 어떻게 비교할 수 있으며, 비교 가능한 대상에게 어떤 범위의 답을 제시할 수 있는가?",
+      "observation_unit": "동일한 개인; 기초조사·사업명부·6개월 추적조사를 분리 제공",
+      "population": "가상 재취업 지원대상 20–54세 900명; 미취업자와 경력전환을 준비하는 취업자 포함",
+      "time_structure": "사업 이전 기초시점과 공통 사업 기준일 6개월 뒤 추적시점. 참여자만의 수료일을 추적시점으로 삼지 않는다.",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20263417,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "klips"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c03_training/v01/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c03_training/v01/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c03_training/v01/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "baseline",
+          "path": "data/baseline.csv",
+          "rows": 900,
+          "columns": 7,
+          "hash": "sha256:dfd9fac51973adf834b33295e4f02cc2c676d6f5c2f2fe0cd926e84ea4ed21c2"
+        },
+        {
+          "name": "program_register",
+          "path": "data/program_register.csv",
+          "rows": 900,
+          "columns": 4,
+          "hash": "sha256:69cec0ccb3095c13735e8f8c1f8021568c9918f8627310c70fbd4ed00b03e628"
+        },
+        {
+          "name": "followup_6m",
+          "path": "data/followup_6m.csv",
+          "rows": 900,
+          "columns": 4,
+          "hash": "sha256:6a031ddb7c23097e937fcd4046f3b63765eb13aab5d5c11deaf621449ff3fcfd"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c03_training.v02",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "디지털 재취업교육 참여와 6개월 뒤 월 근로소득",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "기초 특성이 다른 교육 참여자와 비참여자의 6개월 뒤 월 근로소득 차이를 어떻게 비교할 수 있으며, 비교 가능한 대상에게 어떤 범위의 답을 제시할 수 있는가?",
+      "observation_unit": "동일한 개인; 기초조사·사업명부·6개월 추적조사를 분리 제공",
+      "population": "가상 재취업 지원대상 20–54세 900명; 미취업자와 경력전환을 준비하는 취업자 포함",
+      "time_structure": "사업 이전 기초시점과 공통 사업 기준일 6개월 뒤 추적시점. 참여자만의 수료일을 추적시점으로 삼지 않는다.",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20263418,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "klips"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c03_training/v02/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c03_training/v02/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c03_training/v02/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "baseline",
+          "path": "data/baseline.csv",
+          "rows": 900,
+          "columns": 7,
+          "hash": "sha256:70915b839b41001709e60f3073bc7695f7c565109b9b8a0dd493c37544957163"
+        },
+        {
+          "name": "program_register",
+          "path": "data/program_register.csv",
+          "rows": 900,
+          "columns": 4,
+          "hash": "sha256:7b1ea43c88a18cd935c59d16b480f87273ad5fd609a52dc118346f71616723b0"
+        },
+        {
+          "name": "followup_6m",
+          "path": "data/followup_6m.csv",
+          "rows": 900,
+          "columns": 4,
+          "hash": "sha256:664c7d7bc9426e4a9fdb595c2045c5a16f101d0968e7d1a1faa942f968971960"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c04_home_insulation.v01",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "주거 단열지원 기준과 전력소비",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "주거환경 개선지원이 기준점 부근 신청가구의 전력사용량과 부담에 어떤 차이를 만들었는가?",
+      "observation_unit": "신청가구",
+      "population": "가상 지자체의 주거환경 개선지원 신청 1,200가구",
+      "time_structure": "지원 전후 각각 동일한 30일 관측창; 신청점수와 공개 사업기준 포함",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20268117,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "housing-energy"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c04_home_insulation/v01/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c04_home_insulation/v01/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c04_home_insulation/v01/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "applications",
+          "path": "data/applications.csv",
+          "rows": 1200,
+          "columns": 7,
+          "hash": "sha256:0f8378b85aa38f376752d13698698118cc5f66ef00bc5e85cf67c7faa7bb80df"
+        },
+        {
+          "name": "awards",
+          "path": "data/awards.csv",
+          "rows": 1200,
+          "columns": 4,
+          "hash": "sha256:14dc75509414bdab829dd2347d3ef4324413b637ef1d0d3e862fd92a2e0d39cf"
+        },
+        {
+          "name": "bills",
+          "path": "data/bills.csv",
+          "rows": 1200,
+          "columns": 6,
+          "hash": "sha256:02ba87b4bdfe8685900dd2cde675f81eb61d9116b09db3d31dab0e8ffa284751"
+        },
+        {
+          "name": "policy_rules",
+          "path": "data/policy_rules.csv",
+          "rows": 2,
+          "columns": 6,
+          "hash": "sha256:c01c5ff6bb2e61a35a6437d560a65322158c74a43e6e3af9dffea5517d6140dd"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c04_home_insulation.v02",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "주거 단열지원 기준과 전력소비",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "주거환경 개선지원이 기준점 부근 신청가구의 전력사용량과 부담에 어떤 차이를 만들었는가?",
+      "observation_unit": "신청가구",
+      "population": "가상 지자체의 주거환경 개선지원 신청 1,200가구",
+      "time_structure": "지원 전후 각각 동일한 30일 관측창; 신청점수와 공개 사업기준 포함",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20268118,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "housing-energy"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c04_home_insulation/v02/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c04_home_insulation/v02/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c04_home_insulation/v02/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "applications",
+          "path": "data/applications.csv",
+          "rows": 1200,
+          "columns": 7,
+          "hash": "sha256:c2d805ac08f1c6a0fd030aba37c55bf9b839c2092aa7db05440fc91942e91705"
+        },
+        {
+          "name": "awards",
+          "path": "data/awards.csv",
+          "rows": 1200,
+          "columns": 4,
+          "hash": "sha256:9b9f5233ed4f663bf27b45ae9351c6cb8405cf9d192950b66a0862f49505bd7c"
+        },
+        {
+          "name": "bills",
+          "path": "data/bills.csv",
+          "rows": 1200,
+          "columns": 6,
+          "hash": "sha256:ae322085cc8b2f968304e79c9576f2d821e56424eda1af4014dba960a926526f"
+        },
+        {
+          "name": "policy_rules",
+          "path": "data/policy_rules.csv",
+          "rows": 2,
+          "columns": 6,
+          "hash": "sha256:e7ac33ae4deebde9d178f0e7af0a2ded3e3c74acd073ef28a5ac043d1fc5c42e"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c05_digital_service.v01",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "디지털 민원교육과 자기효능감",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "디지털 민원교육 제공이 후속 민원과제 수행을 높이는가? 교육 이후 자기효능감은 그 관계를 어떻게 설명하는가?",
+      "observation_unit": "신청자",
+      "population": "가상 디지털 민원지원 교육 신청 성인 800명",
+      "time_structure": "사전조사 → 교육 배정 → 자기효능감 조사 → 후속 수행평가",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20270117,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "digital-divide"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c05_digital_service/v01/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c05_digital_service/v01/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c05_digital_service/v01/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "baseline",
+          "path": "data/baseline.csv",
+          "rows": 800,
+          "columns": 5,
+          "hash": "sha256:b906f245d348305a6b8e0bc0ed3e1142ea44210f24e16c3eb75dabaa55df772c"
+        },
+        {
+          "name": "assignments",
+          "path": "data/assignments.csv",
+          "rows": 800,
+          "columns": 3,
+          "hash": "sha256:c36d35d25e7ebea108e5ea3ed7f30da1469c78fc4702e151f6709082492ab75c"
+        },
+        {
+          "name": "mediator_survey",
+          "path": "data/mediator_survey.csv",
+          "rows": 800,
+          "columns": 5,
+          "hash": "sha256:5c5848d7ed144a5e14917a6327245b78f973075e096193df3f7c6ed2d6fe3201"
+        },
+        {
+          "name": "performance",
+          "path": "data/performance.csv",
+          "rows": 800,
+          "columns": 3,
+          "hash": "sha256:c5f7f58b707a29b703feb72ccb6f7a2980a8d1fc4964edae996153ea83a18bbe"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c05_digital_service.v02",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "디지털 민원교육과 자기효능감",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "디지털 민원교육 제공이 후속 민원과제 수행을 높이는가? 교육 이후 자기효능감은 그 관계를 어떻게 설명하는가?",
+      "observation_unit": "신청자",
+      "population": "가상 디지털 민원지원 교육 신청 성인 800명",
+      "time_structure": "사전조사 → 교육 배정 → 자기효능감 조사 → 후속 수행평가",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20270118,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "digital-divide"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c05_digital_service/v02/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c05_digital_service/v02/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c05_digital_service/v02/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "baseline",
+          "path": "data/baseline.csv",
+          "rows": 800,
+          "columns": 5,
+          "hash": "sha256:e44c19e9ee59d8e52b34204972c986b6ed7f64713fc3acb01010bd73c7d96216"
+        },
+        {
+          "name": "assignments",
+          "path": "data/assignments.csv",
+          "rows": 800,
+          "columns": 3,
+          "hash": "sha256:61c671fb020c6fa1aa68a5b91f9cb3069b178071f332ab3cb8345b0b3a7fb8ed"
+        },
+        {
+          "name": "mediator_survey",
+          "path": "data/mediator_survey.csv",
+          "rows": 800,
+          "columns": 5,
+          "hash": "sha256:419ce015b810b4604205d25cf667e761c94a855def5f4346b622f72379f2bbc7"
+        },
+        {
+          "name": "performance",
+          "path": "data/performance.csv",
+          "rows": 800,
+          "columns": 3,
+          "hash": "sha256:9986b22ea90502684a0965f96897855c040607895e12e6d6f4e9608c5619adfb"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c06_heat_safety.v01",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "폭염 안전교육 시간과 옥외작업 노출",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "폭염 안전교육을 더 받았을 때 열부담과 위해사건은 얼마나 달라지는가? 교육 전 옥외작업시간에 따라 그 관계가 달라지는가?",
+      "observation_unit": "작업자",
+      "population": "가상 안전교육에 참여한 현장작업자 900명",
+      "time_structure": "교육 전 기초조사, 1개월 교육기간, 동일 30일 후속관측창",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20272117,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "working-conditions"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c06_heat_safety/v01/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c06_heat_safety/v01/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c06_heat_safety/v01/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "baseline",
+          "path": "data/baseline.csv",
+          "rows": 900,
+          "columns": 6,
+          "hash": "sha256:b85d3342d7aea8b6e21307626c40494b4364ae8c58a3d0649861ea17bff84189"
+        },
+        {
+          "name": "training",
+          "path": "data/training.csv",
+          "rows": 900,
+          "columns": 3,
+          "hash": "sha256:d8c459f06a71f9a31b34ca78696ac0cf9462b7611a8574b022e5492fa28cb854"
+        },
+        {
+          "name": "followup",
+          "path": "data/followup.csv",
+          "rows": 900,
+          "columns": 7,
+          "hash": "sha256:209a5ea4b3045d3171e256789181e1776500d909778358557fed7912442d7d24"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    },
+    {
+      "id": "policy.c06_heat_safety.v02",
+      "version": "1.0.0",
+      "synthetic": true,
+      "title": "폭염 안전교육 시간과 옥외작업 노출",
+      "purpose": [
+        "application_development",
+        "integration_testing",
+        "analysis_guidance_evaluation",
+        "teaching"
+      ],
+      "policy_question": "폭염 안전교육을 더 받았을 때 열부담과 위해사건은 얼마나 달라지는가? 교육 전 옥외작업시간에 따라 그 관계가 달라지는가?",
+      "observation_unit": "작업자",
+      "population": "가상 안전교육에 참여한 현장작업자 900명",
+      "time_structure": "교육 전 기초조사, 1개월 교육기간, 동일 30일 후속관측창",
+      "formats": [
+        "csv",
+        "sav"
+      ],
+      "generation": {
+        "seed": 20272118,
+        "version": "policy-benchmark-v1",
+        "real_records_used": false
+      },
+      "source_ids": [
+        "working-conditions"
+      ],
+      "license": "CC-BY-4.0",
+      "compatible_apps": [
+        {
+          "repository": "cnucho/mcp-special-analysis-tools",
+          "version": "0.2.0"
+        }
+      ],
+      "limitations": [
+        "합성자료이며 실제 모집단·정책효과를 대표하지 않는다.",
+        "참고자료의 원본 스키마 완전 복제품이 아니다; 변수별 대응 범위를 확인한다."
+      ],
+      "source_path": "mcp-special-analysis-tools/policy-benchmark-v1",
+      "entrypoint": "c06_heat_safety/v02/datapackage.json",
+      "entrypoint_format": "frictionless_data_package_v1",
+      "distribution": {
+        "url": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip",
+        "archive_member": "c06_heat_safety/v02/datapackage.json",
+        "release_manifest": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      },
+      "package_registry": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-registry.json",
+      "release": "https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1",
+      "documentation": {
+        "archive_member": "c06_heat_safety/v02/README.md",
+        "guide": "mcp-special-analysis-tools/policy-benchmark-v1/manual-ko.md"
+      },
+      "generator": {
+        "path": "mcp-special-analysis-tools/policy-benchmark-v1/generate.py",
+        "seed": 20261116,
+        "dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/requirements.txt"
+      },
+      "resources": [
+        {
+          "name": "baseline",
+          "path": "data/baseline.csv",
+          "rows": 900,
+          "columns": 6,
+          "hash": "sha256:161ebadca0b20ae4092e954a2721fbe985ddffe0759b786ea02a3b06812bb603"
+        },
+        {
+          "name": "training",
+          "path": "data/training.csv",
+          "rows": 900,
+          "columns": 3,
+          "hash": "sha256:d766bbf74ff40d034fe1551d892f7142b71fed5bd45500e9d7bafcfbfc5c6e3f"
+        },
+        {
+          "name": "followup",
+          "path": "data/followup.csv",
+          "rows": 900,
+          "columns": 7,
+          "hash": "sha256:77bc3d432b89bc901c6f6fbed39828bde252ffe9bf9048491b7205d987d88a87"
+        }
+      ],
+      "integrity": {
+        "canonical_csv_hashes": "resources[].hash",
+        "all_asset_hashes": "https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-manifest.json"
+      }
+    }
+  ]
+}

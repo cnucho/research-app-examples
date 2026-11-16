@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Research application synthetic input catalog",
+  "type": "object",
+  "required": ["schema_version", "catalog", "synthetic", "packages"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "catalog": {"type": "string"},
+    "synthetic": {"const": true},
+    "packages": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "version", "title", "synthetic", "purpose", "entrypoint", "formats", "generation", "license"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "version": {"type": "string"},
+          "synthetic": {"const": true},
+          "title": {"type": "string"},
+          "purpose": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "entrypoint": {"type": "string", "minLength": 1},
+          "formats": {"type": "array", "items": {"enum": ["csv", "sav", "json"]}},
+          "generation": {"type": "object", "required": ["seed", "version", "real_records_used"], "properties": {"seed": {"type": "integer"}, "version": {"type": "string"}, "real_records_used": {"const": false}}},
+          "license": {"type": "string"}
+        },
+        "not": {"anyOf": [{"required": ["recommended_method"]}, {"required": ["expected_significant"]}, {"required": ["oracle_directory"]}, {"required": ["true_effect"]}]}
+      }
+    }
+  }
+}
