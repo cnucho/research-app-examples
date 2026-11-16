@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "version": "policy-data-lecture-ko-v1",
+  "title": "정책 데이터 분석: 문제 발견·예측·원인과 효과",
+  "language": "ko",
+  "document_type": "lecture_note",
+  "separate_from_student_exercise_package": true,
+  "required_application": null,
+  "license": "CC-BY-4.0",
+  "filename": "policy-data-lecture-ko.pdf",
+  "pages": 4,
+  "references_used": 13,
+  "bytes": 134762,
+  "sha256": "87dffecb0fe97f437a8e6c773c52e7c0c29d99958696ff94e6d233c46f6fd541",
+  "download": {
+    "label": "강의자료 PDF 받기",
+    "provider": "Dropbox",
+    "status": "available",
+    "url": "https://www.dropbox.com/scl/fi/8tydk040vw2l78seubyad/policy-data-lecture-ko.pdf?rlkey=c0lz98j4oa5vfw996u4qspvvl&dl=1"
+  },
+  "source": {
+    "manuscript": "LECTURE_KO.md",
+    "script": "build_lecture.py",
+    "bibliography": "sources.json",
+    "dependencies": "requirements.txt",
+    "instructions": "README.md",
+    "shared_font_helper": "../build_handbook.py"
+  },
+  "verification": {
+    "date": "2026-11-16",
+    "anonymous_download_http_status": 200,
+    "download_bytes_and_sha256_matched": true,
+    "portable_rebuild_pages": 4,
+    "each_page_text_matches_distributed_pdf": true,
+    "uri_annotations": 25,
+    "unique_uri_targets": 13,
+    "uri_sequence_matches": true,
+    "each_page_pixels_identical_at_100_dpi": true,
+    "original_distributed_pdf_unchanged": true,
+    "rebuild_pdf_metadata_may_change_file_hash": true
+  },
+  "synthetic_figure": {
+    "purpose": "Illustrate equal means with different waiting-time distributions",
+    "reproduces_a_paper_dataset": false
+  }
+}

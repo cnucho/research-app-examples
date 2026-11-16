@@ -1,0 +1,9 @@
+# Generated lecture outputs and temporary render/font caches.
+output/
+tmp/
+__pycache__/
+*.pyc
+*.pdf
+*.png
+*.ttf
+*.ttc

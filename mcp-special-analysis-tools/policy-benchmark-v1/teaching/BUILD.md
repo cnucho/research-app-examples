@@ -57,3 +57,10 @@ the intended distribution account, public read/download access and exact bytes.
 
 The script performs file checks and formatting. It does not choose a research
 method, interpret results, grade a student, or certify causal validity.
+
+## Separate lecture note
+
+The four-page lecture PDF has its own [source and build instructions](lecture/README.md)
+and [distribution record](lecture/distribution.json). It is not inserted into the
+student ZIP. Rebuilding the lecture does not change the student archive revision
+or the existing handbook checksum.

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "chetty2020",
+    "short": "Chetty 외(2020)",
+    "citation": "Chetty, Raj, Nathaniel Hendren, Maggie R. Jones, and Sonya R. Porter. 2020. \"Race and Economic Opportunity in the United States: An Intergenerational Perspective.\" Quarterly Journal of Economics 135(2): 711–783. https://doi.org/10.1093/qje/qjz042.",
+    "url": "https://opportunityinsights.org/paper/race/",
+    "note": "실증 연구: 집단별 세대 간 소득 이동의 차이를 읽는 사례로 사용하며, 관찰된 차이만으로 그 원인을 단정하지 않는다."
+  },
+  {
+    "id": "kontokosta2021",
+    "short": "Kontokosta·Hong(2021)",
+    "citation": "Kontokosta, Constantine E., and Boyeong Hong. 2021. \"Bias in Smart City Governance: How Socio-Spatial Disparities in 311 Complaint Behavior Impact the Fairness of Data-Driven Decisions.\" Sustainable Cities and Society 64: 102503. https://doi.org/10.1016/j.scs.2020.102503.",
+    "url": "https://marroninstitute.nyu.edu/papers/bias-in-smart-city-governance-how-socio-spatial-disparities-in-311-complaint-behavior-impact-the-fairness-of-data-driven-decisions",
+    "note": "실증 연구: 캔자스시티의 민원 신고 편향을 다룬 사례로, 신고 건수를 실제 문제의 크기나 서비스 수요와 곧바로 동일시하지 않는다."
+  },
+  {
+    "id": "tapio2003",
+    "short": "Tapio(2003)",
+    "citation": "Tapio, Petri. 2003. \"Disaggregative Policy Delphi: Using Cluster Analysis as a Tool for Systematic Scenario Formation.\" Technological Forecasting and Social Change 70(1): 83–101. https://doi.org/10.1016/S0040-1625(01)00177-9.",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040162501001779",
+    "note": "방법론·정책 사례 연구: 핀란드 교통정책의 서로 다른 미래상을 구성한 분해적 델파이이며, 전문가 합의 하나나 검증된 미래 예측값을 산출한 것으로 설명하지 않는다."
+  },
+  {
+    "id": "itf2015",
+    "short": "ITF(2015)",
+    "citation": "International Transport Forum. 2015. Urban Mobility System Upgrade: How Shared Self-Driving Cars Could Change City Traffic. International Transport Forum Policy Papers, No. 6. Paris: OECD Publishing. https://doi.org/10.1787/5jlwvzdk29g5-en.",
+    "url": "https://www.oecd.org/en/publications/urban-mobility-system-upgrade_5jlwvzdk29g5-en.html",
+    "note": "정책 시뮬레이션 보고서: 리스본의 이동 자료와 명시한 수요·서비스 가정 아래 대안을 계산한 결과이며, 실제 도입 후 관찰된 정책효과나 확정적 미래 예측이 아니다."
+  },
+  {
+    "id": "dembski2020",
+    "short": "Dembski 외(2020)",
+    "citation": "Dembski, Fabian, Uwe Wössner, Mike Letzgus, Michael Ruddat, and Claudia Yamu. 2020. \"Urban Digital Twins for Smart Cities and Citizens: The Case Study of Herrenberg, Germany.\" Sustainability 12(6): 2307. https://doi.org/10.3390/su12062307.",
+    "url": "https://www.mdpi.com/2071-1050/12/6/2307",
+    "note": "구현 사례 연구: 헤렌베르크의 도시 자료·시뮬레이션·시민참여를 연결한 디지털트윈 프로토타입이며, 현실의 완전한 복제나 정책 인과효과 검증으로 제시하지 않는다."
+  },
+  {
+    "id": "kleinberg2018",
+    "short": "Kleinberg 외(2018)",
+    "citation": "Kleinberg, Jon, Himabindu Lakkaraju, Jure Leskovec, Jens Ludwig, and Sendhil Mullainathan. 2018. \"Human Decisions and Machine Predictions.\" Quarterly Journal of Economics 133(1): 237–293. https://doi.org/10.1093/qje/qjx032.",
+    "url": "https://cs.stanford.edu/~jure/pubs/bail-qje17.pdf",
+    "note": "실증 예측 연구: 재판 전 석방 판단과 선택적으로 관찰되는 결과를 다루며, 정책 시뮬레이션의 개선 가능성을 실제 배포 후 입증된 효과와 구분한다."
+  },
+  {
+    "id": "perdomo2020",
+    "short": "Perdomo 외(2020)",
+    "citation": "Perdomo, Juan, Tijana Zrnic, Celestine Mendler-Dünner, and Moritz Hardt. 2020. \"Performative Prediction.\" Proceedings of the 37th International Conference on Machine Learning, Proceedings of Machine Learning Research 119: 7599–7609.",
+    "url": "https://proceedings.mlr.press/v119/perdomo20a.html",
+    "note": "방법론 연구: 예측을 사용한 결정이 대상의 행동과 자료 분포를 바꾸는 문제를 설명하며, 재학습이 언제나 이를 해결한다고 일반화하지 않는다."
+  },
+  {
+    "id": "hiltunen2008",
+    "short": "Hiltunen(2008)",
+    "citation": "Hiltunen, Elina. 2008. \"The Future Sign and Its Three Dimensions.\" Futures 40(3): 247–260. https://doi.org/10.1016/j.futures.2007.08.021.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0016328707001085",
+    "note": "개념 연구: 약한 신호의 관찰·현상·해석을 구분하는 틀이며, 새 단서의 발견을 미래 변화의 확증이나 확률 예측으로 취급하지 않는다."
+  },
+  {
+    "id": "card1994",
+    "short": "Card·Krueger(1994)",
+    "citation": "Card, David, and Alan B. Krueger. 1994. \"Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania.\" American Economic Review 84(4): 772–793.",
+    "url": "https://davidcard.berkeley.edu/papers/min-wage-ff-nj.pdf",
+    "note": "실증 DID 연구: 동일 식당의 정책 전후와 두 지역을 비교한 사례이며, 두 시점의 계산 가능성과 충분한 사전추세 검증 가능성을 구분한다."
+  },
+  {
+    "id": "dehejia2002",
+    "short": "Dehejia·Wahba(2002)",
+    "citation": "Dehejia, Rajeev H., and Sadek Wahba. 2002. \"Propensity Score-Matching Methods for Nonexperimental Causal Studies.\" Review of Economics and Statistics 84(1): 151–161. https://doi.org/10.1162/003465302317331982.",
+    "url": "https://users.nber.org/~rdehejia/papers/matching.pdf",
+    "note": "방법론·실증 재분석: 취업훈련 실험 처치집단과 비실험 비교집단을 매칭한 사례이며, PSM이 모든 미관측 교란을 제거하거나 항상 실험을 재현한다는 뜻은 아니다."
+  },
+  {
+    "id": "jacob2004",
+    "short": "Jacob·Lefgren(2004)",
+    "citation": "Jacob, Brian A., and Lars Lefgren. 2004. \"Remedial Education and Student Achievement: A Regression-Discontinuity Analysis.\" Review of Economics and Statistics 86(1): 226–244.",
+    "url": "https://edpolicy.umich.edu/research/epi-working-papers/remedial-education-and-student-achievement-regression-discontinuity",
+    "note": "실증 RD 연구: 성적에 연결된 여름학교·진급 규칙을 이용하며, 기준선 부근 효과를 모든 학생의 평균효과로 확대하지 않는다."
+  },
+  {
+    "id": "imai2010",
+    "short": "Imai 외(2010)",
+    "citation": "Imai, Kosuke, Luke Keele, and Dustin Tingley. 2010. \"A General Approach to Causal Mediation Analysis.\" Psychological Methods 15(4): 309–334. https://doi.org/10.1037/a0020761.",
+    "url": "https://imai.fas.harvard.edu/research/baronkenny/",
+    "note": "방법론·실증 적용 연구: 매개효과의 정의·식별·추정·민감도 분석을 연결하며, 유의한 간접효과만으로 인과기제를 확인했다고 결론내리지 않는다."
+  },
+  {
+    "id": "imai2011",
+    "short": "Imai 외(2011)",
+    "citation": "Imai, Kosuke, Luke Keele, Dustin Tingley, and Teppei Yamamoto. 2011. \"Unpacking the Black Box of Causality: Learning about Causal Mechanisms from Experimental and Observational Studies.\" American Political Science Review 105(4): 765–789. https://doi.org/10.1017/S0003055411000414.",
+    "url": "https://imai.sites.fas.harvard.edu/research/files/mediationP.pdf",
+    "note": "방법론·실증 재분석: 뉴스 메시지 등의 기제를 분석하며, 처치의 무작위배정만으로 매개변수와 결과 사이의 인과관계까지 식별되는 것은 아니다."
+  },
+  {
+    "id": "imai2019",
+    "short": "Imai·Kim(2019)",
+    "citation": "Imai, Kosuke, and In Song Kim. 2019. \"When Should We Use Unit Fixed Effects Regression Models for Causal Inference with Longitudinal Data?\" American Journal of Political Science 63(2): 467–490. https://doi.org/10.1111/ajps.12417.",
+    "url": "https://imai.fas.harvard.edu/research/fematch/",
+    "note": "방법론 연구: 단위 고정효과의 인과 가정과 시간적 관계를 검토하며, 대상 ID를 넣으면 시간에 따라 달라지는 미관측 요인까지 모두 통제된다고 설명하지 않는다."
+  },
+  {
+    "id": "athey2016",
+    "short": "Athey·Imbens(2016)",
+    "citation": "Athey, Susan, and Guido Imbens. 2016. \"Recursive Partitioning for Heterogeneous Causal Effects.\" Proceedings of the National Academy of Sciences 113(27): 7353–7360. https://doi.org/10.1073/pnas.1510489113.",
+    "url": "https://www.gsb.stanford.edu/faculty-research/publications/recursive-partitioning-heterogeneous-causal-effects",
+    "note": "방법론 연구: 효과가 다른 하위집단을 탐색하는 인과트리를 설명하며, 기계학습의 유연성이 연구설계·교란 조정 등 인과 식별 조건을 대신하지 않는다."
+  }
+]

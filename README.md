@@ -30,6 +30,17 @@ another tool through actual use. The [distribution record](mcp-special-analysis-
 identifies the current archive and Dropbox public-link status. A pending link is
 not an active public download.
 
+## Separate policy-data lecture note
+
+The [four-page Korean lecture note](mcp-special-analysis-tools/policy-benchmark-v1/teaching/lecture/README.md)
+introduces problem discovery through comparisons, forecasting, and causal policy
+analysis with 13 example references. It is separate from the student exercise
+archive and requires no particular application. The
+[readable manuscript](mcp-special-analysis-tools/policy-benchmark-v1/teaching/lecture/LECTURE_KO.md),
+PDF renderer, bibliography and pinned build dependencies are versioned here.
+The [lecture distribution record](mcp-special-analysis-tools/policy-benchmark-v1/teaching/lecture/distribution.json)
+contains the verified Dropbox download link and the exact distributed PDF hash.
+
 ## Machine-readable discovery
 
 [`registry.json`](registry.json) records the existing LCA package and all 12 policy
