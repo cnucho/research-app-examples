@@ -130,7 +130,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c01_heat_shelters/v01/datapackage.json"
+        "archive_member": "user/c01_heat_shelters/v01/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -223,7 +228,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c01_heat_shelters/v02/datapackage.json"
+        "archive_member": "user/c01_heat_shelters/v02/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -308,7 +318,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c02_youth_transport/v01/datapackage.json"
+        "archive_member": "user/c02_youth_transport/v01/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -393,7 +408,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c02_youth_transport/v02/datapackage.json"
+        "archive_member": "user/c02_youth_transport/v02/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -485,7 +505,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c03_training/v01/datapackage.json"
+        "archive_member": "user/c03_training/v01/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -577,7 +602,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c03_training/v02/datapackage.json"
+        "archive_member": "user/c03_training/v02/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -676,7 +706,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c04_home_insulation/v01/datapackage.json"
+        "archive_member": "user/c04_home_insulation/v01/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -775,7 +810,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c04_home_insulation/v02/datapackage.json"
+        "archive_member": "user/c04_home_insulation/v02/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -874,7 +914,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c05_digital_service/v01/datapackage.json"
+        "archive_member": "user/c05_digital_service/v01/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -973,7 +1018,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c05_digital_service/v02/datapackage.json"
+        "archive_member": "user/c05_digital_service/v02/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -1065,7 +1115,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c06_heat_safety/v01/datapackage.json"
+        "archive_member": "user/c06_heat_safety/v01/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     },
     {
@@ -1157,7 +1212,12 @@
         "distribution_manifest": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/distribution.json",
         "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
         "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
-        "archive_member": "user/c06_heat_safety/v02/datapackage.json"
+        "archive_member": "user/c06_heat_safety/v02/datapackage.json",
+        "revision": 2,
+        "learning_mode": "standalone_problem_based",
+        "required_application": null,
+        "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+        "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
       }
     }
   ]

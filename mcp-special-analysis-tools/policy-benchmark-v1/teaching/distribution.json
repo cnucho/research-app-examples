@@ -9,13 +9,13 @@
   "input_packages": 12,
   "data_csv_files": 38,
   "data_sav_files": 38,
-  "archive_files": 179,
+  "archive_files": 185,
   "curator_material_included": false,
   "archive": {
-    "filename": "policy-analysis-student-v1.zip",
-    "bytes": 988312,
-    "sha256": "7062e8b65881db0734f00bdedfb1a451d4be2dc5ada7c06c31c3cb1a99185eb3",
-    "layout": "README_KO.md, PRACTICE_PROBLEMS_KO.md, student-package.json, user/"
+    "filename": "policy-analysis-student-v1-r2.zip",
+    "bytes": 1155229,
+    "sha256": "d966a8d33cfce829928ac0778ba62100f556ac50848703f8e3027a45fbecd7f3",
+    "layout": "00_START_HERE.html, policy-effect-exercises-ko.pdf, README_KO.md, PRACTICE_PROBLEMS_KO.md, SUBMISSION_TEMPLATE_KO.md, OPTIONAL_TOOLS_KO.md, student-package.json, user/, provenance/"
   },
   "download": {
     "label": "가상데이터 받기",
@@ -25,11 +25,50 @@
   },
   "documentation": {
     "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
-    "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md"
+    "problems": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/PRACTICE_PROBLEMS_KO.md",
+    "submission_template": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/SUBMISSION_TEMPLATE_KO.md",
+    "optional_tools": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/OPTIONAL_TOOLS_KO.md"
   },
   "rebuild": {
     "script": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/package_student.py",
-    "input": "Exact user/ directory from policy-benchmark-v1"
+    "input": "Exact user/ directory from policy-benchmark-v1",
+    "handbook_script": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/build_handbook.py",
+    "render_dependencies": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/requirements-teaching.txt",
+    "instructions": "mcp-special-analysis-tools/policy-benchmark-v1/teaching/BUILD.md"
   },
-  "verification_scope": "All 176 input file bytes match their released manifest; 38 CSV and 38 SAV match descriptors. This is packaging verification, not current ChatGPT host acceptance or causal validity."
+  "verification_scope": "Original release verified before README adaptation and registry hash updates; all observation data, codebooks, descriptors, questionnaires, value labels and sources preserved. Packaging checks only, not assignment grading, host acceptance, or causal validity.",
+  "revision": 2,
+  "title": "정책효과 분석 연습과제",
+  "learning_mode": "standalone_problem_based",
+  "required_application": null,
+  "tool_choice": "learner_selected",
+  "handbook": {
+    "filename": "policy-effect-exercises-ko.pdf",
+    "bytes": 177123,
+    "sha256": "774e1aead77e3b29346311442064301a496f102b90cb10ce1f6ad9f1fce99e2c",
+    "pages": 28
+  },
+  "input_provenance": {
+    "base_release_files_verified": 176,
+    "unchanged_input_files": 161,
+    "adapted_readme_files": 13,
+    "registry_readme_hashes_updated": 12,
+    "current_manifest_regenerated": true,
+    "original_manifest_preserved": true,
+    "original_registry_preserved": true,
+    "observation_data_codebooks_descriptors_questionnaires_labels_sources_unchanged": true
+  },
+  "previous_revisions": [
+    {
+      "version": "policy-analysis-student-v1",
+      "archive_files": 179,
+      "archive": {
+        "filename": "policy-analysis-student-v1.zip",
+        "bytes": 988312,
+        "sha256": "7062e8b65881db0734f00bdedfb1a451d4be2dc5ada7c06c31c3cb1a99185eb3",
+        "layout": "README_KO.md, PRACTICE_PROBLEMS_KO.md, student-package.json, user/"
+      },
+      "revision": 1
+    }
+  ]
 }

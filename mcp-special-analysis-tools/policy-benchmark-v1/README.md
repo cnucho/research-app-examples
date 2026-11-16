@@ -11,11 +11,15 @@ version `0.2.0`, source commit `5db498e3195ecc214b1b7d3c890212f074901514`.
 
 ## Download and start
 
-For classroom practice, start with the [Korean student guide](teaching/README_KO.md)
-and [practice problems](teaching/PRACTICE_PROBLEMS_KO.md). The student ZIP preserves
-all ordinary input bytes under `user/` and adds these two handouts. Its checksum,
-contents and Dropbox public-link status are recorded in [distribution.json](teaching/distribution.json).
-The original release below remains a separately versioned benchmark archive.
+For classroom practice, start with the [standalone policy-effect assignments](teaching/README_KO.md)
+and [problem book](teaching/PRACTICE_PROBLEMS_KO.md). The student archive works
+without a particular app: it includes an offline start page, printable PDF,
+policy questions, data and variable descriptions, tasks, submission template
+and assessment criteria. Tool and AI guidance is an optional appendix.
+The data and codebook bytes are preserved; input README adaptations and their
+updated hashes are recorded explicitly. See [distribution.json](teaching/distribution.json)
+for the archive checksum and Dropbox public-link status. The original release
+below remains a separately versioned developer benchmark archive.
 
 - [Versioned release](https://github.com/cnucho/research-app-examples/releases/tag/policy-benchmark-v1)
 - [Ordinary analysis inputs ZIP](https://github.com/cnucho/research-app-examples/releases/download/policy-benchmark-v1/policy-benchmark-v1-inputs.zip)
