@@ -20,8 +20,8 @@
   "download": {
     "label": "가상데이터 받기",
     "provider": "Dropbox",
-    "status": "awaiting_public_link",
-    "url": null
+    "status": "available",
+    "url": "https://www.dropbox.com/scl/fi/rfqsjw53bhc3z3jl8p5iz/policy-analysis-student-v1-r2.zip?rlkey=obu6dt9scbhz5s3ph23r3e6w2&dl=0"
   },
   "documentation": {
     "guide": "https://github.com/cnucho/research-app-examples/blob/main/mcp-special-analysis-tools/policy-benchmark-v1/teaching/README_KO.md",
@@ -46,7 +46,13 @@
     "filename": "policy-effect-exercises-ko.pdf",
     "bytes": 177123,
     "sha256": "774e1aead77e3b29346311442064301a496f102b90cb10ce1f6ad9f1fce99e2c",
-    "pages": 28
+    "pages": 28,
+    "download": {
+      "label": "정책효과 분석 과제집 PDF",
+      "provider": "Dropbox",
+      "status": "available",
+      "url": "https://www.dropbox.com/scl/fi/b93pnntq4y9k2rpnsfec6/policy-effect-exercises-ko.pdf?rlkey=yjtx0s7xxo175p2av6mf4frwk&dl=0"
+    }
   },
   "input_provenance": {
     "base_release_files_verified": 176,
